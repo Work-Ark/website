@@ -1,0 +1,20 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npx sass src/main.scss public/main.css",
+    "watch": "npx sass --watch src/main.scss public/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Work-Ark/website.git"
+  },
+  "keywords": [],
+  "author": "Nagatani",
+  "license": "ISC",
+  "homepage": "https://github.com/Work-Ark/website#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}
